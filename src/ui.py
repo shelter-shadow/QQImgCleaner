@@ -290,10 +290,9 @@ class UIManager:
         
         # 免责声明
         disclaimer_text = "免责声明：\n"
-        disclaimer_text += "1. 本软件仅供个人使用，请勿用于商业用途。\n"
-        disclaimer_text += "2. 软件可能存在Bug，使用前请备份重要数据。\n"
-        disclaimer_text += "3. 因使用本软件导致的数据丢失或业务中断，作者不承担任何责任。\n"
-        disclaimer_text += "4. 请确保您有权处理要清理的图片文件。"
+        disclaimer_text += "1. 软件可能存在Bug，使用前请备份重要数据。\n"
+        disclaimer_text += "2. 因使用本软件导致的数据丢失或业务中断，作者不承担任何责任。\n"
+        disclaimer_text += "3. 请确保您有权处理要清理的图片文件。"
         
         # 显示文本
         text_label = ttk.Label(content_frame, text=welcome_text + disclaimer_text, justify=tk.LEFT, wraplength=450)
